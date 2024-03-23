@@ -1,38 +1,3 @@
-# Title
-
-    Zerodha Nifty-50 Dashboard
-
-## Objective
-
-    To develop zerodha financial app dashboard.
-
-## Tech Stack
-
-   React.Js, HTML5, CSS3, BootStrap
-
-## Completion Instructions
-
-### Functionality
-
-#### Must Have
-
-    App must be responsive.
-    Slider in the graph should be dynamic.
-
-## Resources
-
-### Design files
-
-    Zeodha application dashboard
-
-### Third-party packages
-
-react-icons, bootstrap-react, material-UI
-
-
-
-
-
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

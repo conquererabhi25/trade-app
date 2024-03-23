@@ -1,0 +1,366 @@
+
+.stock-dashboard{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+
+}
+
+.main-graph-container{
+    
+    border-radius: 10px;
+    
+}
+
+.bar-graph-1{
+    display: flex;
+
+}
+
+.graph-1-container{
+    display: flex;
+    align-items: center;
+    background-image: url("https://i.ibb.co/9tSfTcf/graph-1.jpg");
+    height: 20vh;
+    background-repeat:no-repeat;
+    width: 30vw;
+    margin-left: 8vw;
+}
+
+.graph-2-container{
+    display: flex;
+    align-items: center;
+    background-image: url("https://i.ibb.co/YkvY5T5/graph-2.jpg");
+    height: 20vh;
+    background-repeat:no-repeat;
+    width: 30vw;
+    margin-left: 8vw;
+}
+
+.graph-3-container{
+    display: flex;
+    align-items: center;
+   background-image: url("https://i.ibb.co/tD5Ff0H/graph-3.jpg");
+    height: 20vh;
+    background-repeat:no-repeat;
+    width: 30vw;
+    margin-left: 8vw;
+}
+
+.graph-4-container{
+    display: flex;
+    align-items: center;
+    background-image: url("https://i.ibb.co/4Whgtss/graph-4.jpg");
+    height: 20vh;
+    background-repeat:no-repeat;
+    width: 30vw;
+    margin-left: 8vw;
+}
+
+
+.nselogoimg{
+    height: 35px;
+    width: 40px;
+}
+
+
+
+.Slider{
+    margin-bottom: 6vh;
+    margin-left: 30px;
+    width: 22vw;
+}
+
+.Slider-1{
+    margin-top: 22px;
+    margin-left: 30px;
+    width: 22vw;
+}
+
+.chart-data{
+    display: flex;
+    align-items: center;
+    width: 93vw;
+    background-color: #faf6f6;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    
+}
+
+.Nifty-50-heading{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.nselogodiv{
+    display: flex;
+    align-items: center;
+}
+
+.Graph-values{
+    display: flex;
+}
+
+.graph-1-subvalue-div{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    text-align: center;
+}
+
+.red{
+    color: red;
+    font-weight: bold;
+}
+
+.black{
+    color: #000000;
+}
+
+.green{
+    color: green;
+    font-weight: bold;
+}
+
+.zerodhalogo {
+    height: 35px;
+    width: 7vw; /* Default width for smallest screens */
+}
+
+
+.market-summary{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40vw;
+    box-shadow: 0 2px 2px 0 rgba(191, 191, 191, 0.2), 0 6px 20px 0 rgba(188, 188, 188, 0.19);
+    border-radius: 10px;
+    margin: 15px;
+    height: 70vh;
+}
+
+.unordered-list{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    width: 20vw;
+}
+
+
+.bootomul{
+    display: flex;
+    flex-direction:column ;
+}
+
+
+@media (max-width:768px){
+    .zerodhalogo {
+        height: 30px;   
+        width:15vw;
+
+    }
+    .chart-data{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .time-frame{
+        display: flex;
+        width: 50vw;
+        flex-wrap: wrap;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .timebutton{
+        height: 20px;
+    }
+
+    .market-summary{
+        width: 90vw;
+    }
+    .unordered-list{
+        list-style: none;
+     display: flex;
+     flex-wrap: wrap;
+     width: 70vw;
+    }
+
+    .graph-1-container{
+        width: 70vw;
+        margin-right: 40px;
+    }
+    .graph-2-container{
+        width: 70vw;
+        margin-right: 40px;
+    }
+    .graph-3-container{
+        width: 70vw;
+        margin-right: 40px;
+    }
+    .graph-4-container{
+        width: 70vw;
+        margin-right: 40px;
+    }
+    .bottom-sec-list{
+        display: flex;
+        flex-direction: column;
+        margin-left: 25px;
+    }
+    .bootomul{
+        display: flex;
+        flex-direction: row;
+        
+    }
+    .Slider{
+     margin-bottom: 10vh;
+        margin-left: 30px;
+        width: 22vw;
+    }
+  
+}
+
+
+@media (min-width:768px) and (max-width:1200px) {
+    .graph-1-container{
+        margin-right: 10vw;
+        width: 40vw;
+        height: 13vh;
+    }
+    .zerodhalogo {
+        height: 30px;   
+        width:20vw;
+
+    }
+    .graph-2-container{
+        margin-right: 10vw;
+        width: 40vw;
+        height: 13vh;
+    }
+    .graph-3-container{
+        margin-right: 10vw;
+        width: 40vw;
+        height: 13vh;
+    }
+    .graph-4-container{
+        margin-right: 10vw;
+        width: 40vw;
+        height: 13vh;
+    }
+
+    .Slider{
+        margin-top: vh;
+           margin-left: 30px;
+           width: 22vw;
+       }
+   
+}
+
+
+
+.logo-bottom{
+    align-self: flex-end;
+    margin-top: 10px;
+}
+
+
+.current-price{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.downgrade{
+    color: red;
+    margin-left: 10px;
+}
+
+
+.onlyDashboard{
+    box-shadow: 0 2px 2px 0 rgba(124, 123, 123, 0.2), 0 6px 20px 0 rgba(122, 121, 121, 0.19);
+    border-radius: 8px;
+}
+
+.Eachlist{
+    margin: 10px;
+    line-height: 0.1rem;
+}
+
+.textvalue{
+    font-size:13px;
+    color: grey;
+}
+.textbold{
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.main-graph-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.graph-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 30vw;
+}
+
+.orange{
+    color: orange;
+    font-weight: bold;
+}
+.timebutton{
+   margin: 10px;
+}
+.blue{
+    color: rgb(98, 143, 234);
+    font-weight: bold;
+}
+
+.bottom-sec-list{
+    display: flex;
+    width: 20vw;
+    justify-content: space-between;
+}
+
+
+.box-1{
+    display: flex;
+}
+
+.prefix-name{
+    background-color: rgb(247, 166, 229);
+    color: rgb(239, 41, 170);
+    margin-right: 10px;
+    font-size: 12px;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.viewDetails{
+    text-align: end;
+    color: grey;
+    font-size: 14px;
+
+}
+
+.bottom{
+    background-color: grey;
+    color: black;
+}
+
+
+.prefix-name-bottom{
+    background-color: rgb(189, 187, 189);
+    color: rgb(31, 30, 30);
+    margin-right: 10px;
+    font-size: 12px;
+    padding: 5px;
+    border-radius: 3px;
+}
+
